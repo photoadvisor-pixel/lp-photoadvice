@@ -345,8 +345,8 @@ a:hover img.hoverImg {
 	.content_image_03 {
 		width: 100% !important;
 		float: none !important;
-		font-size: 20px !important;
-		line-height: 2.0 !important;
+		font-size: 16px !important;
+		line-height: 1.8 !important;
 		padding: 0 !important;
 		margin: 15px 0 !important;
 	}
@@ -416,7 +416,7 @@ a:hover img.hoverImg {
 		width: 100% !important;
 		float: none !important;
 		margin-bottom: 8px !important;
-		font-size: 18px !important;
+		font-size: 16px !important;
 	}
 
 	.form_input,
@@ -426,7 +426,7 @@ a:hover img.hoverImg {
 		float: none !important;
 		padding: 15px !important;
 		/* タップしやすく */
-		font-size: 18px !important;
+		font-size: 16px !important;
 		/* iOS自動ズーム防止 */
 		box-sizing: border-box;
 		border: 1px solid #ccc;
@@ -448,5 +448,174 @@ a:hover img.hoverImg {
 	.copyright {
 		margin: 20px 0 0 0 !important;
 		text-align: center;
+	}
+}
+/* ====== 新規テキスト要素（画像代替機能）のスタイル ====== */
+.txt-visual-title {
+	font-size: 38px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+	text-align: center;
+	padding: 100px 15px;
+	background-color: #333; /* fall-back */
+	background-image: url('../img/visual_150910.jpg'); /* Use original image as background */
+	background-size: cover;
+	background-position: center;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.txt-title-01 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	padding: 20px 0;
+	margin: 30px 0 15px 0;
+	border-bottom: 3px solid #b71911;
+	background-color: #fceceb;
+}
+
+.txt-title-02 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #b71911;
+	border-left: 5px solid #b71911;
+	padding: 10px 15px;
+	margin: 20px 0;
+	background-color: #f9f9f9;
+}
+
+.txt-btn-01-link {
+	text-decoration: none !important;
+}
+
+.txt-btn-01 {
+	display: block;
+	background: linear-gradient(to bottom, #d93d39, #a01410);
+	color: #fff !important;
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 40px;
+	border-radius: 8px;
+	border: 2px solid #80100c;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+	margin: 20px auto;
+	max-width: 450px;
+}
+.txt-btn-01:hover {
+	background: linear-gradient(to bottom, #f25551, #ba1e19);
+}
+
+.txt-image-04 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	background-color: #fff1c8;
+	border: 2px solid #e0d0a0;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 1.6;
+}
+
+.txt-image-06, .txt-image-07 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #d93d39;
+	padding: 15px;
+	margin: 10px 0;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.txt-note-top {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #0088cc;
+	padding: 15px;
+	text-align: center;
+	border-radius: 8px 8px 0 0;
+}
+
+.txt-form-title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #b71911;
+	padding: 15px;
+	text-align: center;
+	border-radius: 8px 8px 0 0;
+	margin-top: 30px;
+}
+
+.txt-submit-btn {
+	display: block;
+	width: 100%;
+	background: linear-gradient(to bottom, #ff8c00, #cc6b00);
+	color: #fff;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0;
+	border: 2px solid #b35e00;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+	cursor: pointer;
+	margin: 20px auto;
+}
+
+/* フォーム送信のラッパーボタンの初期スタイルを上書き */
+.form_submit_wrapper {
+	background: none !important;
+	border: none !important;
+	cursor: pointer;
+	width: 100%;
+	padding: 0;
+}
+
+/* スマホ用 上書きスタイル */
+@media screen and (max-width: 768px) {
+	.txt-visual-title {
+		font-size: 24px;
+		padding: 60px 10px;
+	}
+	.txt-title-01 {
+		font-size: 20px;
+		padding: 15px 10px;
+		line-height: 1.4;
+	}
+	.txt-title-02 {
+		font-size: 18px;
+		padding: 10px 15px;
+	}
+	.txt-btn-01 {
+		font-size: 20px;
+		padding: 15px 20px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.txt-image-04 {
+		font-size: 16px;
+		padding: 15px;
+	}
+	.txt-note-top {
+		font-size: 16px;
+		padding: 15px;
+	}
+	.txt-form-title {
+		font-size: 18px;
+		padding: 15px;
+	}
+	.txt-submit-btn {
+		font-size: 22px;
+		padding: 15px 0;
 	}
 }
