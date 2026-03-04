@@ -136,18 +136,18 @@ a:hover img.hoverImg {
 }
 
 .content_image_03 {
-	width: 669px;
-	margin-top: 20px;
-	font-size: 14px;
+	width: auto;
+	max-width: 800px;
+	margin: 20px auto;
+	font-size: 16px;
 	font-weight: bold;
-	color: #000;
-	background-image: url(../img/image_03.gif);
-	height: 366px;
-	padding-top: 80px;
-	padding-left: 160px;
-	margin-right: auto;
-	margin-left: auto;
+	color: #333;
+	background-color: #fceceb;
+	border: 2px solid #b71911;
+	border-radius: 8px;
+	padding: 30px;
 	position: relative;
+	line-height: 1.8;
 }
 
 .content_image_03 .btn_02 {
@@ -301,11 +301,7 @@ a:hover img.hoverImg {
 
 	/* 背景画像や固定高の解除 */
 	.visual,
-	.content_image_03 {
-		height: auto !important;
-		background-size: cover;
-		background-position: center;
-	}
+	
 
 	.content_image_03 {
 		padding: 30px 15px !important;
@@ -446,18 +442,13 @@ a:hover img.hoverImg {
 
 /* ====== 新規テキスト要素（画像代替機能）のスタイル ====== */
 h1 {
-	font-size: 38px;
+	font-size: 36px;
 	font-weight: bold;
-	color: #fff;
-	text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+	color: #b71911;
 	text-align: center;
-	padding: 100px 15px;
-	background-color: #333;
-	background-image: url('../img/visual_150910.jpg');
-	background-size: cover;
-	background-position: center;
-	border-radius: 8px;
+	padding: 40px 15px;
 	margin-bottom: 20px;
+	line-height: 1.4;
 }
 
 h2.title_01 {
@@ -580,7 +571,7 @@ span.btn_02 {
 @media screen and (max-width: 768px) {
 	h1 {
 		font-size: 24px;
-		padding: 60px 10px;
+		padding: 30px 10px;
 	}
 	h2.title_01 {
 		font-size: 20px;
