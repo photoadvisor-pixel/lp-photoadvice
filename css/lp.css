@@ -1,0 +1,452 @@
+@charset "UTF-8";
+
+.wrap {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: top;
+}
+
+a:hover img.hoverImg {
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.footer_box {
+	width: 922px;
+	margin-top: 18px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 48px;
+}
+
+.footer_text_link {
+	font-size: 12px;
+	float: left;
+	margin-right: 62px;
+	line-height: 18px;
+}
+
+.footer_text_link a {
+	color: #A3A3A3;
+	text-decoration: none;
+}
+
+.btn_center {
+	color: #A3A3A3;
+	text-decoration: none;
+}
+
+.footer_text_link a:hover {
+	text-decoration: underline;
+}
+
+.copyright {
+	color: #A3A3A3;
+	font-size: 12px;
+	margin-right: 62px;
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+
+.pagetop {
+	height: 21px;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #AFAFAF;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.visual {
+	height: 577px;
+	width: 960px;
+	position: relative;
+}
+
+.visual .btn {
+	height: 53px;
+	width: 394px;
+	position: absolute;
+	left: 287px;
+	top: 510px;
+}
+
+.title_01 {
+	height: 30px;
+	width: 900px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.title_02 {
+	margin-top: 30px;
+}
+
+.contents_box {
+	width: 960px;
+	margin-bottom: 27px;
+	background-color: #FFF;
+}
+
+.content {
+	width: 860px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.content_text {
+	line-height: 21px;
+	color: #595757;
+	line-height: 26px;
+	width: 860px;
+	margin-top: 20px;
+}
+
+.content_text p {
+	color: #595757;
+}
+
+.content_text_01 {
+	line-height: 21px;
+	color: #595757;
+	line-height: 26px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	width: 469px;
+}
+
+.content_image_01 {
+	width: 371px;
+	margin-top: 20px;
+	float: left;
+}
+
+.content_text_02 {
+	line-height: 21px;
+	color: #595757;
+	line-height: 26px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	width: 569px;
+}
+
+.content_image_02 {
+	width: 271px;
+	margin-top: 20px;
+	float: left;
+}
+
+.content_image_03 {
+	width: 669px;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	background-image: url(../img/image_03.gif);
+	height: 366px;
+	padding-top: 80px;
+	padding-left: 160px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+.content_image_03 .btn_02 {
+	height: 53px;
+	width: 394px;
+	position: absolute;
+	left: 219px;
+	top: 360px;
+}
+
+.content_image_04 {
+	margin-top: 20px;
+	float: left;
+	margin-right: 20px;
+}
+
+.kansou_box {
+	background-image: url(../img/kansou_title.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	width: 840px;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 11px;
+	padding-left: 20px;
+	color: #595757;
+	margin-top: 20px;
+}
+
+.kansou_box .text_box {
+	margin-top: 30px;
+	margin-right: 20px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.kansou_box .text_box_02 {
+	margin-right: 20px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.kansou_box img {
+	margin-top: 15px;
+	margin-right: 20px;
+	vertical-align: text-top;
+}
+
+.btn_center {
+	height: 53px;
+	width: 394px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.note_box {
+	background-image: url(../img/note_back.gif);
+	background-repeat: repeat-y;
+	width: 860px;
+	margin-top: 30px;
+}
+
+.note_text {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: #595757;
+}
+
+.form_box {
+	width: 820px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	background-image: url(../img/form_back.gif);
+	background-repeat: repeat-y;
+	position: relative;
+	margin-top: 5px;
+}
+
+.form_text_box_01 {
+	position: absolute;
+	top: 67px;
+	left: 20px;
+	color: #595757;
+	width: 780px;
+}
+
+.form_text_box_02 {
+	position: absolute;
+	top: 103px;
+	left: 20px;
+	color: #595757;
+	width: 780px;
+}
+
+.form_text_01 {
+	float: left;
+	width: 160px;
+	font-weight: bold;
+}
+
+.form_input {
+	float: left;
+	width: 260px;
+}
+
+.form_btn {
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 8px;
+}
+
+/* 徹底的スマホ対応レスポンシブ設定 */
+@media screen and (max-width: 768px) {
+
+	/* 全体のリセットとベース設定 */
+	body {
+		padding: 0 !important;
+		font-size: 16px !important;
+		line-height: 1.8 !important;
+	}
+
+	/* PC幅固定の解除と余白の最適化 */
+	.wrap,
+	.contents_box,
+	.visual,
+	.title_01,
+	.content,
+	.kansou_box,
+	.note_box,
+	.form_box,
+	.footer_box {
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+		box-sizing: border-box;
+	}
+
+	/* コンテンツ幅のリセット */
+	.content {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+
+	/* 背景画像や固定高の解除 */
+	.visual,
+	.content_image_03 {
+		height: auto !important;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.content_image_03 {
+		padding: 30px 15px !important;
+	}
+
+	/* 画像の全幅・自動縮小化の徹底 */
+	img {
+		max-width: 100% !important;
+		height: auto !important;
+		display: block;
+		margin: 10px auto !important;
+	}
+
+	/* 特殊な配置画像の解除 */
+	.content_image_01,
+	.content_image_02,
+	.content_image_04 {
+		width: 100% !important;
+		float: none !important;
+		margin: 15px 0 !important;
+	}
+
+	/* テキストのスマホ最適化（文字を大幅に大きく、PC用改行を消す） */
+	.content_text,
+	.content_text_01,
+	.content_text_02,
+	.kansou_box .text_box,
+	.kansou_box .text_box_02,
+	.note_text,
+	.content_image_03 {
+		width: 100% !important;
+		float: none !important;
+		font-size: 20px !important;
+		line-height: 2.0 !important;
+		padding: 0 !important;
+		margin: 15px 0 !important;
+	}
+
+	/* PC向けの改行タグをスマホでは無視して自然に折り返させる */
+	.content_text br,
+	.content_text_01 br,
+	.content_text_02 br,
+	.text_box br,
+	.text_box_02 br,
+	.note_text br,
+	.content_image_03 br {
+		display: none !important;
+	}
+
+	/* 感想ボックスの調整 */
+	.kansou_box {
+		background-image: none !important;
+		/* PC用背景はズレるので消す */
+		background-color: #f9f9f9;
+		border: 2px solid #ddd;
+		border-radius: 8px;
+		padding: 20px 15px !important;
+		margin-bottom: 20px !important;
+	}
+
+	/* ボタンの巨大化・中央配置 */
+	.visual .btn,
+	.content_image_03 .btn_02,
+	.form_btn,
+	.btn_center {
+		position: static !important;
+		width: 100% !important;
+		max-width: none !important;
+		margin: 20px auto !important;
+		display: block;
+		text-align: center;
+	}
+
+	.visual .btn img,
+	.content_image_03 .btn_02 img,
+	.form_btn img,
+	.btn_center img {
+		width: 90% !important;
+		max-width: 400px !important;
+		margin: 0 auto !important;
+	}
+
+	/* 入力フォームのスマホ完全対応 */
+	.form_box {
+		background-image: none !important;
+		background-color: #fff1c8;
+		border: 1px solid #e0d0a0;
+		border-radius: 8px;
+		padding: 20px 15px !important;
+	}
+
+	.form_text_box_01,
+	.form_text_box_02 {
+		position: static !important;
+		width: 100% !important;
+		margin-bottom: 20px !important;
+		padding: 0 !important;
+	}
+
+	.form_text_01 {
+		width: 100% !important;
+		float: none !important;
+		margin-bottom: 8px !important;
+		font-size: 18px !important;
+	}
+
+	.form_input,
+	.form_input input,
+	dd input {
+		width: 100% !important;
+		float: none !important;
+		padding: 15px !important;
+		/* タップしやすく */
+		font-size: 18px !important;
+		/* iOS自動ズーム防止 */
+		box-sizing: border-box;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+
+	/* フッターの縦並び */
+	.footer_box {
+		text-align: center;
+		padding: 20px 15px !important;
+	}
+
+	.footer_text_link {
+		width: 100% !important;
+		float: none !important;
+		margin: 0 0 15px 0 !important;
+	}
+
+	.copyright {
+		margin: 20px 0 0 0 !important;
+		text-align: center;
+	}
+}

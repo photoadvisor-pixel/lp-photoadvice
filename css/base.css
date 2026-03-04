@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 14px;
+	background-color: #000;
+	line-height: 26px;
+	padding: 20px;
+}
+h1, h2, h3, h4, h5, h6, body, html, p, li, dt, dd, pre {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", san-serif;
+	/*	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", san-serif;*/
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+	font-style: normal;
+}
+form, input, textarea, fieldset, select {
+	font-size: 12px;
+	line-height: normal;
+	padding: 1px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+}
+.header_box {
+	margin: 0px;
+	padding: 0px;
+}
+.content_text_title    {
+	margin: 0px;
+	padding: 0px;
+}
+ul, ol {
+	list-style-type: none;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-size: 0%;
+	line-height: 0%;
+}
+a:link {
+	color: #4D230F;
+}
+a:visited {
+	color: #4D230F;
+}
+.float_clear {
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: auto;
+}
+.weight_bold {
+	font-weight: bold;
+}
+.weight_caption {
+	font-size: 10px;
+	line-height: 120%;
+}
+.size_large {
+	font-size: 14px;
+}
+.size_small {
+	font-size: 10px;
+}
+.colored_text {
+	color: #00AC20;
+}
+.colored_text2 {
+	color: #3686B4;
+	font-weight: normal;
+}
+.colored_text3 {
+	color: #74934A;
+	font-weight: bold;
+}
+.colored_text4 {
+	color: #666;
+	font-weight: normal;
+}
+.colored_text5 {
+	color: #B10908;
+	font-weight: bold;
+}
